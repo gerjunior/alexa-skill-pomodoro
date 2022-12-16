@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "work timer",
+          "intents": [
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.FallbackIntent",
+                  "samples": []
+              },
+              {
+                  "name": "StartTimerIntent",
+                  "slots": [
+                      {
+                          "name": "duration",
+                          "type": "AMAZON.DURATION"
+                      }
+                  ],
+                  "samples": [
+                      "iniciar rotina de {duration}",
+                      "contar {duration}"
+                  ]
+              }
+          ],
+          "types": []
+      }
+  }
+}
